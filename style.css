@@ -79,7 +79,6 @@ button {
   border-radius: 3px;
 }
 
-
 button:hover {
   box-shadow: 0 8px 16px rgb(54 179 127 / 24%);
 }
@@ -608,7 +607,7 @@ button:active {
     background:
       url("./images/frame5.png") no-repeat 0% 25%,
       url("./images/frame4.png") no-repeat 100% 0%;
-    background-size: 100px, 100px;  
+    background-size: 100px, 100px;
   }
 }
 
@@ -718,13 +717,13 @@ footer::after {
     margin-bottom: 0;
   }
 
-  footer > a {
+  /* footer > a {
     display: none;
   }
 
   footer::after {
     content: none;
-  }
+  } */
 
   .footer-container {
     margin-bottom: 0;
